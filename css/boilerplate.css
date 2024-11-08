@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wropper {
+    max-width: 600px;
+    margin: auto;
+    padding-inline: 40px;
+}
+
+
+:root {
+    --fs_logo: clamp(1.125rem, 0.5625rem + 2.5vw, 1.5rem);
+    --fs_h1: clamp(1.125rem, 0.75rem + 1.66vw, 1.375rem);
+    --fs_h2: clamp(0.875rem, 0.6875rem + 0.83vw, 1rem);
+    --fs_p: clamp(0.75rem, 0.5625rem + 0.83vw, 0.875rem);
+    --text_color: #252323;
+    --text_color_2: #7A7474;
+    --link_color: #E63946;
+    --bg_color: #EEF0F2;
+}
+
+body {
+    background-color: #FFFFFA;
+}
+
+@media (max-width:440px) {
+    .wropper {
+        padding-inline: 24px;
+    }
+}
